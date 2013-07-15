@@ -1,0 +1,20 @@
+!!! 5
+head
+    meta(charset='utf-8')
+    title Lights Out!
+    meta(name='description', content='Lights out game - put out all the lights')
+    link(href="stylesheets/site2.css", rel='stylesheet')
+    link(href="stylesheets/site.css", rel='stylesheet')
+    link(href="stylesheets/jquery-ui.css", rel='stylesheet')
+    link(href="stylesheets/bootstrap.css", rel='stylesheet')
+    script(type='text/javascript', src='js/jquery-latest.js')
+    script(type='text/javascript', src='js/jquery-ui.js')
+    script(type='text/javascript', src='/socket.io/socket.io.js')
+body
+    .navbar.navbar-fixed-top
+        .navbar-inner
+            .container
+                a.brand(href='#')Web Meeting
+    .container
+        block content
+    script(src='/js/jquery-1.9.1.js')

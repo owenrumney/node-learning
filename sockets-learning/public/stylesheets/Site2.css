@@ -1,0 +1,33 @@
+﻿body {
+    padding-top: 50px !important;
+}
+
+#discussion, #present {
+    list-style-type: none;
+    list-style: none;
+    margin: 0;
+    
+}
+
+#entry {
+    position: absolute;
+    bottom: 0;
+}
+
+#chatbar {
+    height: 60%;
+    position: relative;
+}
+
+#presentlist {
+    height: 20%;
+}
+
+#whiteboard {
+    height: 80%;
+}
+
+#scrolling {
+    overflow: auto;
+    height: 85%;
+    }

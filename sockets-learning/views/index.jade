@@ -1,0 +1,17 @@
+extend layout
+block content
+	div.span4
+		div#chatbar.span4
+			div#scrolling
+				ul#discussion
+			div#entry
+				textarea#message
+				input#sendmessage.btn.btn-info(type='button', value='Send')
+			input#displayname(type='hidden')
+		div#presentlist.span4
+			h3 Current Attendees
+			ul#present
+	div#whiteboard.span8
+	script(type='text/javascript', src='js/chatclient.js')
+block sidebar-left
+block sidebar-right
